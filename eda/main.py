@@ -3,19 +3,17 @@ from pathlib import Path
 import pandas as pd
 import csv
 import logging
-import os
+from infraestructure.file_utils import detectFileExt
 
 logger = logging.getLogger(__name__)
 
-def main():
-    base_path = Path(__file__).resolve().parents[1]
-    path_bank =base_path.joinpath('files/input/bank-additional.csv')
-    
-    df_bank = pd.read_csv(path_bank)
+def main(file_name,sheet_name = None):
+    df_bank = detectFileExt(file_name,sheet_name)
     return df_bank.head()
 
 
-
-execute = main()
+test_file = 'bank-additional.csv'
+test_sheet = '2012'
+execute = main(test_file)
 print(execute)
 
