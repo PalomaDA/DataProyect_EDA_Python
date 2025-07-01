@@ -29,10 +29,10 @@ def detectFileExt(file_name, sheet=None):
 
 
 # Testing
-test_file = 'customer-details.xlsx'
-test_sheet = '2012'
-df = detectFileExt(test_file,test_sheet)
-print(df)
+# test_file = 'customer-details.xlsx'
+# test_sheet = '2012'
+# df = detectFileExt(test_file,test_sheet)
+# print(df)
 
 
 
