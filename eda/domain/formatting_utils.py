@@ -2,6 +2,8 @@
 import logging
 import pandas
 
+logger = logging.getLogger(__name__)
+
 # Funtions
 def column_names_formatting(df):
     '''

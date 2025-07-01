@@ -2,8 +2,19 @@
 import logging
 import pandas as pd
 
+logger = logging.getLogger(__name__)
+
 # Funtions
 def info_dataframe(df):
+    '''
+    Generates a summary dataframe with basic info od the dataframe: count not null and null values in columns, perfect of null values and types.
+
+    Args:
+    - df: dataframe
+
+    Returns
+    - Summary dataframe
+    '''
     column_info = []
     total_rows = len(df)
     
