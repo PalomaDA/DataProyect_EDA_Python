@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 # FUNCTIONS
 
 # Open file
-def detectFileExt(file_name, sheet=None):
+def file_to_dataframe(file_name, sheet=None):
     '''
     Identify file extension and returns as dataframe.
 
