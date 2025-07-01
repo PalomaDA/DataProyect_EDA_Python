@@ -10,6 +10,16 @@ logger = logging.getLogger(__name__)
 
 # Open file
 def detectFileExt(file_name, sheet=None):
+    '''
+    Identify file extension and returns as dataframe.
+
+    Args:
+    - file_name (string): complete name of file (extension included).
+    - sheet (string): name of sheet to open (just for excel files).
+
+    Returns:
+    - Pandas dataframe.
+    '''
     base_path = Path(__file__).resolve().parents[2]
     final_path = base_path / 'files' / 'input' / file_name
     file_ext = file_name.split('.')[1]
