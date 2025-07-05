@@ -17,8 +17,5 @@ def main(file_name,sheet_name = None):
     return df_bank_info
 
 
-test_file = 'customer-details.xlsx'
-test_sheet = '2012'
-execute = main(test_file,test_sheet)
-print(execute)
+
 

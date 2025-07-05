@@ -38,12 +38,6 @@ def file_to_dataframe(file_name, sheet=None):
         logger.error('No file found')
 
 
-# Testing
-# test_file = 'customer-details.xlsx'
-# test_sheet = '2012'
-# df = detectFileExt(test_file,test_sheet)
-# print(df)
-
 
 
 
