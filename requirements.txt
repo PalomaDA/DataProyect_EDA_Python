@@ -1,0 +1,5 @@
+python
+pandas
+openpxl
+pytest
+coverage
