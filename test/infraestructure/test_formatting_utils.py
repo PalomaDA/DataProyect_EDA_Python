@@ -1,5 +1,5 @@
 # Import Libraries
-from eda.domain.formatting_utils import (
+from eda.infraestructure.formatting_utils import (
     column_names_formatting
 )
 import pytest

@@ -26,11 +26,11 @@ def info_dataframe(df):
 
         column_info.append(
             {
-                "column_name" : col,
-                "non_null_count" : non_null_count,
-                "null_count" : null_count,
-                "null_percent" : null_percent,
-                "dtype" : dtype
+                "COLUMN_NAME" : col,
+                "NON_NULL_COUNT" : non_null_count,
+                "NULL_COUNT" : null_count,
+                "NULL_PERCENT" : null_percent,
+                "DTYPE" : dtype
             }
         )
     

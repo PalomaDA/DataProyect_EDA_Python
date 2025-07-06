@@ -4,8 +4,8 @@ import pandas as pd
 import csv
 import logging
 from infraestructure.file_utils import file_to_dataframe
-from domain.formatting_utils import column_names_formatting
-from domain.explore_utils import info_dataframe
+from eda.infraestructure.formatting_utils import column_names_formatting
+from eda.infraestructure.explore_utils import info_dataframe
 
 logger = logging.getLogger(__name__)
 

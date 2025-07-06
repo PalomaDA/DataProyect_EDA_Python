@@ -1,5 +1,5 @@
 # Import Libraries
-from eda.domain.explore_utils import (
+from eda.infraestructure.explore_utils import (
     info_dataframe
 )
 import pytest
