@@ -1,5 +1,9 @@
-python
 pandas
-openpxl
+openpyxl
 pytest
 coverage
+numpy
+matplotlib
+seaborn
+scikit-learn
+ipykernel
